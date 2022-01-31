@@ -5,6 +5,7 @@
  
  Additionally you will need to update the class tag to look for and the string in the if block.
  In my case the BIOS version div tags are
+  ![Alt text](images/BIOSClassScript.png?raw=true "Title")
  
  You can place this file in /usr/local/bin 
  
