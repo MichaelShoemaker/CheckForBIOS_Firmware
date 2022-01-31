@@ -3,6 +3,9 @@
  You will need to update the CURRENT_BIOS and url variables for your own system.
  ![Alt text](images/BIOS_Version_Vendor_Site.png?raw=true "Title")
  
+ Additionally you will need to update the class tag to look for and the string in the if block.
+ In my case the BIOS version div tags are
+ 
  You can place this file in /usr/local/bin 
  
  Run chmod +x get_bios.py
