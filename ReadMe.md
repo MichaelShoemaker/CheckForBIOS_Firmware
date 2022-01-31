@@ -4,7 +4,9 @@
  ![Alt text](images/BIOS_Version_Vendor_Site.png?raw=true "Title")
  
  Additionally you will need to update the class tag to look for and the string in the if block.
- In my case the BIOS version div tags are
+ In my case the BIOS version div tags are div-table-cell download-version and all the BIOS 
+ versions start with an "F". 
+ 
   ![Alt text](images/BIOSClassScript.png?raw=true "Title")
  
  You can place this file in /usr/local/bin 
