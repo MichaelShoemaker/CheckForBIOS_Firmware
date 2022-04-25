@@ -15,7 +15,7 @@
  Run chmod +x get_bios.py
  
  Run crontab -e and add the following entry
- @reboot sleep 300 && ./usr/local/bin/check_bios.py
+ @reboot sleep 300 && /usr/local/bin/check_bios.py
  
  The above cronjob will run 5 minutes after every reboot
 
