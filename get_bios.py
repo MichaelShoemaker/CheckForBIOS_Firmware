@@ -27,11 +27,11 @@ def slack_notification(message, webhook_url):
 def check_bios():
     CURRENT_BIOS = 'F63c'
 
-    url="https://www.gigabyte.com/Motherboard/B450-AORUS-PRO-WIFI-rev-1x/support#support-dl-bios"
+    url="https://www.gigabyte.com/Motherboard/B450-AORUS-PRO-WIFI-rev-1x/support#Support-Bios"
 
 
     # Make a GET request to fetch the raw HTML content
-    resp = requests.get(url)
+    resp = requests.get(url, headers = {"User-Agent":"joe-mama"})
 
     web_hook = slack_hook()    
 
